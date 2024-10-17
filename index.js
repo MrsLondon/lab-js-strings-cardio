@@ -6,8 +6,8 @@
 const string1 = "My favorite dessert is jello";
 
 // Your code here...
-
-
+let indexOfCharachter = string1.indexOf("j");
+console.log(indexOfCharachter);
 
 
 /*******************************************
@@ -16,7 +16,9 @@ const string1 = "My favorite dessert is jello";
 // Make a new string with the text "COOL" by using only the characters available in the provided string and the bracket notation
 
 const string2 = "ABCDEFGHJKLO";
+//let ConcatenateCharacters = 
 
+//console.log(string2[2]+string2[11]+string2[11]+string2[10])
 // Your code here...
 
 
@@ -28,8 +30,9 @@ const string2 = "ABCDEFGHJKLO";
 // Using the method .repeat() and the provided string, print out the text "NaNaNaNa Batman!" in the console.
 
 const string3 = "Na";
-
+let  RepeatString = `${string3.repeat(4)} Batman`
 // Your code here...
+console.log(RepeatString);
 
 
 
@@ -40,7 +43,7 @@ const string3 = "Na";
 // Using the string method .slice(), access and print to the console the name of your favorite fruit from a given string
 
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
-
+console.log(fruit.slice(0 , 6)); 
 // Your code here...
 
 
