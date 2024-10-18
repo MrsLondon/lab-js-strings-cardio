@@ -45,7 +45,7 @@ console.log(RepeatString);
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 console.log(fruit.slice(0 , 6)); 
 // Your code here...
-test
+test test 2
 
 
 /***************************************************
